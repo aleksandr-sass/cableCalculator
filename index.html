@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cableCalculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Кабельный калькулятор</h1>
+        <form action="#">
+            <div class="result">
+                <textarea id="result" cols="30" rows="4"></textarea>
+            </div>
+            <div class="wrapper">
+                <h4>Нагрузка:</h4>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="" id="led" class="tumbler">
+                        LED (10Вт)
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="" id="tv"  class="tumbler">
+                        Телевизор 32" (50Вт)
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="" id="teapot" class="tumbler">
+                        Чайник (2000Вт)
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="" id="microwave" class="tumbler">
+                        СВЧ-печь (1200Вт)
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="" id="hvac" class="tumbler">
+                        Кондиционер (2000Вт)
+                    </label>
+                </div>
+                <div class="checkbox">                    
+                    <a href="">Сброс</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
